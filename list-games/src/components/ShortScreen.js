@@ -1,25 +1,18 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-class ShortScreen extends React.Component {
-  render() {
-    getGame = () => {
-      axios.get('https://wild-games.herokuapp.com/api/v1')
-  
-      .then(res => res.data)
-  
-      .then(data => {
-        this.setState({gameList: data});
-      })
-    };
+function ShortScreen (props) {
     const params = props.match.params;
   return (
     <div>
-      {console.log(props.name)}
+     <Link to='/'><button>Return to home page</button></Link>
+      {console.log(props)}
+      
       <p>{props.name}</p>
-      <img src={short_screenshots} alt={props.name} />
+      <p>{params.name}</p>
+      
     </div>
   )
-  }
-}
+  };
 
 export default ShortScreen;

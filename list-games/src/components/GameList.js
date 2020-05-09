@@ -40,7 +40,7 @@ class GameList extends React.Component {
     console.log(filteredGame);
     return (
       <div>
-      <button onClick={this.filtered}>best game</button>
+      <button onClick={this.filtered}>{this.state.filter ? "All games" : 'Best games'}</button>
         {
         filteredGame.map(g => <Game key={g.id} {...g} handleClick={this.deletItem} />)
         }

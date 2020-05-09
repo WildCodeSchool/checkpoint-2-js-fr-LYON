@@ -2,8 +2,8 @@ import React from 'react';
 import './App.css';
 import GameList from './components/GameList';
 import {BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-// import ShortScreen from './components/ShortScreen';
-import Game from './components/Game';
+// import Game from './components/Game';
+import ShortScreen from './components/ShortScreen';
 
 function App () {
 
@@ -12,7 +12,7 @@ function App () {
       <Router>
       <Switch>
         <Route exact path='/' component={GameList} />
-        <Route exact path='/jeu/screenshots/:id' component={Game} />
+        <Route exact path='/jeu/screenshots/:id' render={(props) => (<ShortScreen {...props} /> )} />
       </Switch>
       </Router>
     </div>

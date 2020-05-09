@@ -8,7 +8,7 @@ function Game (props) {
       <img src={props.background_image} alt={props.name} />
       <p>{props.rating}</p>
       <Link to={`/jeu/screenshots/${props.id}`}>
-      <button>View more</button>
+      <button p={(props) => props[0]}>View more</button>
       </Link>
       <button onClick={() => props.handleClick(props.id)}>Supprimer</button>
     </div>
