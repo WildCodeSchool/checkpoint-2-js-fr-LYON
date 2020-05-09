@@ -7,6 +7,7 @@ export default class App extends Component {
     super(props);
     this.state = {
       games: [],
+      gameList: [],
       filterGames : false,
       buttonText: 'Best games',
     };
@@ -32,30 +33,40 @@ export default class App extends Component {
   }
 
   bestGamesOnClick = () => {
+    // on fais un backup de games en gameList pour le rafficher en entier plus tard
+    this.setState({
+      gameList: this.state.games
+    })
+    // on split
     let games = this.state.games.slice();
     if (this.state.filterGames === false) {
       games = games.filter(
         game => game.rating >= 4.5
       );
       this.setState({ games });
-      this.setState({ filterGames: true });
-      this.setState({ buttonText: 'Best games' });
-    } else {
-      this.setState({ games: this.gameListRef });
-      this.setState({ filterGames: false });
       this.setState({ buttonText: 'All games' });
+      this.setState({ filterGames: true });
+    } else {
+      if(this.state.buttonText === 'All games'){
+          this.setState({ games: this.state.gameList });
+          this.setState({ buttonText: 'Best games' });
+          this.setState({ filterGames: false });
+      }
     }
   }
+
 
   render() {
     return (
       <div>
+        {/* boutton pour filtrer ou défiltrer */}
         <button onClick={this.bestGamesOnClick}>
             {this.state.buttonText}
         </button>
         {this.state.games.map(() => (
           <div>
-            <GameList games={this.state.games} delGame={this.delGame}/>
+            {/* Boutton delete */}
+            <GameList games={this.state.games} delGame={this.delGame}/> 
           </div>
         ))}
       </div>
