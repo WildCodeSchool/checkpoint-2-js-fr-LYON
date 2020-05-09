@@ -1,7 +1,7 @@
 .App {
-  text-align: center;
+  display: flex;
+  justify-content: center;
 }
-
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -20,6 +20,31 @@
   color: white;
 }
 
-img{
-  width: 500px;
+img {
+  width: 70%;
+  margin-bottom: 40px;
+}
+
+.boutons {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* margin: 10px 30%; */
+}
+.btn {
+  margin: 5px;
+}
+.title {
+  margin-top: 40px;
+  font-style: italic;
+  box-shadow: 2px 2px 3px rgb(199, 199, 199);
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }

@@ -1,76 +1,59 @@
-import React, { Component } from 'react'
-import axios from 'axios'
-import Game from './Game'
+import React, { Component } from 'react';
+import axios from 'axios';
+import Game from './Game';
 
 export class GameList extends Component {
-
   constructor(props) {
-    super(props)
-  
+    super(props);
+
     this.state = {
-       info : [],
-       id : 20,
-    }
-  }  
-
-  componentDidMount(){
-    axios.get(' https://wild-games.herokuapp.com/api/v1')
-    .then(res => {
-      // console.log(res.data);   
-
-      this.setState({info : res.data })
-    })
+      gams: [],
+    };
   }
 
-  handleDelete = ()=>{
-    const { info, id } = this.state
-    const newInfo = [...info.slice(0,id).reverse()]
+  componentDidMount() {
+    axios.get('https://wild-games.herokuapp.com/api/v1').then(res => {
+      console.log(res);
 
-    this.setState( {info : newInfo, id : id-1 } )
+      this.setState({ gams: res.data });
+    });
+  }
+
+  handleDelete = e => {
+    const { gams, id } = this.state;
+    const gamDelete = [...gams.reverse()];
+    var index = gamDelete.indexOf(e.target.value);
+    gamDelete.splice(index, 1);
+    this.setState({ gams: gamDelete });
     console.log(id);
+  };
 
-    if (id === 1) {
-      this.setState({id : 1})
-    }  
-  }
+  handleFilter = () => {
+    const { gams } = this.state;
+    const gamsFilter = gams.filter(gam => gam.rating >= 4.5);
+    this.setState({ gams: gamsFilter });
+  };
 
-  handleFilter = () =>{
-    const { info } = this.state;
-
-    const infoFilter = info.filter(i => {
-      return i.rating >= 4.5;
-    })
-
-    this.setState({ info : infoFilter})
-
-  }
-
-  
   render() {
-
-    const info = this.state.info.map( i => ( 
-      <div key = {i.id}>
-        <h1>{i.name}</h1>
-        <p>{i.released}</p>
-        <p>{i.rating}</p>
-        <img src={i.background_image} alt=""/>
-        <div>
-        </div>
-  
+    const gams = this.state.gams.map(gam => (
+      <div className="container" key={gam.id}>
+        <h3>{gam.name}</h3>
+        <p> Released : {gam.released}</p>
+        <p> Rating : {gam.rating}</p>
+        <img src={gam.background_image} alt="" />
+        <hr />
       </div>
-    ))
-  
+    ));
     return (
-    <div>
-      <Game info ={info} 
-      delete = {this.handleDelete}
-      filter = {this.handleFilter}
-      />
-    </div>
-    )
-
+      <div>
+        <Game
+          gams={gams}
+          delete={this.handleDelete}
+          filter={this.handleFilter}
+        />
+      </div>
+    );
   }
 }
 
-
-export default GameList
+export default GameList;
