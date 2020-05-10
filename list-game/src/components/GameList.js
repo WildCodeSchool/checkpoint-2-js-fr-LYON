@@ -1,9 +1,6 @@
 import React from 'react';
 import axios from 'axios';
 import Game from './Game';
-import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
-import Screenshots from './Screenshots';
-import App from '../App';
 
 class GameList extends React.Component {
   constructor (props) {
@@ -74,24 +71,14 @@ class GameList extends React.Component {
     return (
       <div>
         { (this.state.loading) ? (<p>Loading data...</p>) : (
-        <Router>
           <div>
             <h1>Welcome to the game list of a non-gamer guy!</h1>
             <button onClick={() => this.handleRatedGames()}>{this.state.allGames ? 'Best games' : 'All games'}</button>
             {list}
           </div>
-          <Switch>
-            <Route exact path='/' Component={App} />
-
-            <Route
-              exact path='/jeu/screenshots/:id'
-              render={(props) => (<Screenshots {...this.state} {...props} />)}
-            />
-          </Switch>
-        </Router>
         )}
-      </div>
-    );
+        </div>
+    )
   }
 }
 
