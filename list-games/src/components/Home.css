@@ -1,0 +1,16 @@
+
+.button-delete{
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+}
+
+.button-delete-container{
+  display: flex;
+  justify-content: center;
+}
+
+.games-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}

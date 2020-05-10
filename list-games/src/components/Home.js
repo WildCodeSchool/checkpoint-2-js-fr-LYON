@@ -2,6 +2,9 @@ import React, { Component } from "react";
 import GameList from "../components/GameList";
 import { NavLink } from 'react-router-dom';
 import axios from "axios";
+import '../components/Home.css';
+import { Button } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 export default class Home extends Component {
   constructor (props) {
@@ -62,17 +65,21 @@ export default class Home extends Component {
       <div>
         <NavLink exact to='/' className='home' />
         {/* boutton pour filtrer ou défiltrer */}
-        <button onClick={this.bestGamesOnClick}>
-            {this.state.buttonText}
-        </button>
-        {this.state.games.map(() => (
-          <div>
-            {/* Boutton delete */}
-            <GameList games={this.state.games} delGame={this.delGame}/> 
-            {/* <Screenshots/> */}
-            {console.log(this.state.games)}
-          </div>
-        ))}
+        <div className='button-delete-container'>
+          <Button onClick={this.bestGamesOnClick} variant="outline-dark" className='button-delete'>
+              {this.state.buttonText}
+          </Button>
+        </div>
+        <div className='games-container'>
+          {this.state.games.map(() => (
+            <div >
+              {/* Boutton delete */}
+              <GameList games={this.state.games} delGame={this.delGame}/> 
+              {/* <Screenshots/> */}
+              {console.log(this.state.games)}
+            </div>
+          ))}
+        </div>
       </div>
     );
   }

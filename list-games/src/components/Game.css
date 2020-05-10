@@ -1,5 +1,18 @@
 
-.gameImg{
-  height: 300px;
-  width: auto;
+.card-container{
+  margin: 5px;
+}
+
+.sreenshots-link{
+  text-decoration: none;
+  color: #212529;
+}
+
+.sreenshots-link:hover {
+  text-decoration: none;
+  color: #947109;
+}
+
+.button{
+  margin-top: 1rem;
 }
