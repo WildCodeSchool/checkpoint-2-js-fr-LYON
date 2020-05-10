@@ -7,8 +7,8 @@ class GameList extends React.Component {
     super(props);
     this.state = {
       allGameList: [],
-      highRateGames: [],
-      allGames: true,
+      highRatedGames: [],
+      allGamesSelected: true,
       loading: true
     };
   }
@@ -55,16 +55,16 @@ class GameList extends React.Component {
   }
 
   handleRatedGames () {
-    const highRateGames = this.state.allGameList.filter((game) => game.rating >= 4.5);
-    this.setState({ highRateGames, allGames: !this.state.allGames });
+    const highRatedGames = this.state.allGameList.filter((game) => game.rating >= 4.5);
+    this.setState({ highRatedGames, allGamesSelected: !this.state.allGamesSelected });
   }
 
    render () {
-     const userList = (this.state.allGames ? this.state.allGameList : this.state.highRateGames)
+     const userList = (this.state.allGamesSelected ? this.state.allGameList : this.state.highRatedGames)
        const list = userList.map(game =>
         <>
-          <Game game={game} onClick={this.handleDeleteGame} />
-          {this.state.allGames && <button key={`${game.id}`} onClick={() => this.handleDeleteGame(game.id)}>Delete {game.name}</button>}
+          <Game key={game.slug} game={game} onClick={this.handleDeleteGame} />
+          {this.state.allGamesSelected && <button key={`${game.id}`} onClick={() => this.handleDeleteGame(game.id)}>Delete {game.name}</button>}
         </>
       );
      
@@ -73,7 +73,7 @@ class GameList extends React.Component {
         { (this.state.loading) ? (<p>Loading data...</p>) : (
           <div>
             <h1>Welcome to the game list of a non-gamer guy!</h1>
-            <button onClick={() => this.handleRatedGames()}>{this.state.allGames ? 'Best games' : 'All games'}</button>
+            <button onClick={() => this.handleRatedGames()}>{this.state.allGamesSelected ? 'Best games' : 'All games'}</button>
             {list}
           </div>
         )}

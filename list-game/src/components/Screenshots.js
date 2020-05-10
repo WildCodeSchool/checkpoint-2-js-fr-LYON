@@ -3,9 +3,7 @@ import { Link } from 'react-router-dom';
 import './Screenshots.css';
 
 const Screenshots = (props) => {
-  const params = props.match.params;
   const game = props.location.query.game.game;
-  console.log(game);
   const imagesList = game.short_screenshots.map(image => <img key={image.id} src={image.image} alt={game.name} />);
 
   return (

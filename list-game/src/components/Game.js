@@ -16,7 +16,7 @@ const Game = (props) => {
             game: { game }
           }
         }}>
-          <button>Screenshots</button>
+          <button key={game.background_image}>Screenshots</button>
         </Link>
       </div>
     </div>
