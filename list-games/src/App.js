@@ -3,7 +3,6 @@ import './App.css';
 import { Component } from 'react';
 import axios from 'axios';
 import GameList from './components/GameList';
-import Game from './components/Game';
 
 class App extends Component {
   constructor (props) {
@@ -19,17 +18,16 @@ class App extends Component {
     axios.get('https://wild-games.herokuapp.com/api/v1')
       .then(response => response.data)
       .then(data => {
+        console.log(data);
         const tabGame = data.map(game => {
-        return {
-          name: game.name,
-          img: game.img,
-          bgimg: game.genres.image_background,
-          rating: game.rating,
-          genreName: game.genres.name
-        };
+          return {
+            name: game.name,
+            img: game.background_image,
+            rating: game.rating
+          };
         });
-        /* this.setState({game: tabGame }); */
-      })
+        this.setState({game: tabGame });
+      });
   }
 
   render() {
