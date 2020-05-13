@@ -66,6 +66,18 @@ on peut aussi lui donner en paramètre -d Secondes pour lui donner un taux de ra
   
  >Les cycles de vie y'a déjà le componentDidMount qui permet de lancer une requête ou un composant lors du "montage" du composant, DidUpdate qui s'active lorsque le state ou les props se mettent à jour, et DidUnmount lorsque le composant est enlever. (Par exemple le compteur qu'on à fait pour l'atelier avec didMount pour le lancer, et un clearintervalle lorsqu'on l'enlève pour gagner des perfs sur l'appli).
 
+>Un composant class se créer comme ceci :
+
+	class NameClass extends React.Component {
+		constructor(props) {
+		super(props)
+		this.state = {
+			name: value
+		}
+		}
+		}
+>Le constructor est obligatoire SAUF si on utilise la récente syntaxe avec juste "state = { name: value } de plus si on met un constructor, super(props) deviens obligatoire. Il permet de récupéré les props de la class parent de react.
+
  ### Wild
  
  ### Scrum
