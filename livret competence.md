@@ -86,6 +86,10 @@ on peut aussi lui donner en paramètre -d Secondes pour lui donner un taux de ra
 
 >Faire un formulaire react n'est pas très complexe, seulement, il faut penser qu'on peut faire des composants controler grace au state et à la valeur value des différents inputs. Pour cela, on lie l'attribue value={this.state.Value} pour lui faire afficher une valeur de base, ou envoyer la valeur ou on veux, ou l'utiliser pour autre chose. Le reste du JSX se met dans le render et la value se gère avec le state.
 
+>Les props servent à modifier dynamiquement, lors de l'appel du composant, les différentes clés du composant. Ainsi, en ayant créé une fois le composant, on peut l'appeler autant de fois que nécessaire en modifiant les valeurs des clés manuellement.
+
+>Les events c'est des attributs à mettre sur les formulaires, les boutons ou les liens le plus souvent pour lier au state ou une méthode à une action. Par exemple lier le onChange à la méthode handleChange qui permet de changer un état lors d'une mise à jours des props, un autre onClick quand on clique sur un bouton pour par exemple changer l'état d'un bouton filter comme lors du checkpoint 2 avec les best games : all games ect.
+
  ### Wild
  
 >Mon niveau d'anglais disons que si je prend le temps je peut lire des textes, l'écrire un peu moins, et le parler j'ai pas du tout l'accent anglais... je peut donc au mieux lire les forums comme stacksoverflow.
