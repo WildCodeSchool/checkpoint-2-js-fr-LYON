@@ -15,7 +15,7 @@ on peut aussi lui donner en paramètre -d Secondes pour lui donner un taux de ra
 >3. On colle le code donner (en oubliant pas de faire import from ... depuis react ou la balise meta correspondante dans le html
 >4. Pour "personaliser" on doit souvent passer par des class et faire une "surcharge" du CSS déjà implanté de base.
     
- >Pour les pré-processeurs css (sass par ex) ça permet de géré dynamiquement le css, de façon à en faire casiment un langage de programation pure avec des fonctions, des boucles, des variables et j'en passe... Bref, même si avec CSS3 y'a plein de nouvelles choses comme des variables en natif, ça permet toujours plus de liberté ~et de faignantise pour le dev web moderne...~ oups ! ^^ en bref, le CSS plus structuré et plus puissant qu'en natif.
+ >Pour les pré-processeurs css (sass par ex) ça permet de géré dynamiquement le css, de façon à en faire casiment un langage de programation pure avec des fonctions, des boucles, des variables et j'en passe... Bref, même si avec CSS3 y'a plein de nouvelles choses comme des variables en natif, ça permet toujours plus de liberté ~ et de faignantise pour le dev web moderne... ~ oups ! ^^ en bref, le CSS plus structuré et plus puissant qu'en natif.
     
  >Pour les bonnes pratiques SEO (Search engine optimization) c'est pour mieux référencer le site ou l'appli graces aux petits robots~-esclaves de googles pour mieux surveiller le net~ et référencer le site le plus haut possible lors d'une recherche sur les différens moteurs de recherches. Pour cela on peu déjà utiliser le validateur W3C et ensuite faire des balises meta courtes, avec description/auteurs/langues, utilisation des bonnes balises sémantiques, les alts sur les images....
  
