@@ -29,6 +29,11 @@
 
 >Pour merge il faut faire git merge origine branche ou on veux finir
 
+    >Pour les tags de git, ça sert, si j'ai bien compris, à mettre une étiquette de "version" 
+    sur un état de publication avec git tag -a v1.0.3 -m 'ma version v1.0.3'. 
+    On peut les listers avec git tag et affiner la rechercher avec une commande du style : 
+    git tag -l 'v1.0.3*' pour ne lister que les versions 1.0.3.X.
+
 ### Integration
 
 >Pour l'UI/UX un des exemples que j'aime c'est par exemple de pouvoir annuler sa commande, ou une aide quand on entre un mot de passe/adresse mail qui possède bien des caractères comme @ ou 123 ect
