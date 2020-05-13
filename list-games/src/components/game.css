@@ -1,0 +1,35 @@
+
+.GameCard {
+    display: flex;
+    padding: 1.25em;
+    width: 400px;
+    border: 1px solid #f8f8f8;
+    border-radius: 2px;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
+    font-size: 1.2em;
+  }
+  
+  .GameCard img {
+    display: flex;
+    max-height: 120px;
+    margin-right: 1.5rem;
+  }
+  
+  .GameCard blockquote {
+    margin: 0 0 1rem 0;
+  }
+  
+  .GameCard figcaption p {
+    margin: 0.125rem 0 0 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+  
+  .GameCard figcaption p span {
+    color: #eee;
+  }
+  
+  .GameCard figcaption p span.is-favorite {
+    color: #ecc94b;
+  }
