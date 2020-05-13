@@ -63,6 +63,8 @@ on peut aussi lui donner en paramètre -d Secondes pour lui donner un taux de ra
  ### React
 
   >Pour les hooks ça permet de rendre les composants fonctionnel dynamique, ce qui permet de gagner beaucoup de temps et un code plus concis graces aux useState qui se désctruture en 2 variable, une pour gérer une fonction ressemblant au setState, et l'autre étant un tableau contenant le contenu mis entre les useState() et ce qui est mis à jour via setCount(count + 1). Il y a aussi useContext, useRef, on peut en faire nous même...
+  
+ >Les cycles de vie y'a déjà le componentDidMount qui permet de lancer une requête ou un composant lors du "montage" du composant, DidUpdate qui s'active lorsque le state ou les props se mettent à jour, et DidUnmount lorsque le composant est enlever. (Par exemple le compteur qu'on à fait pour l'atelier avec didMount pour le lancer, et un clearintervalle lorsqu'on l'enlève pour gagner des perfs sur l'appli).
 
  ### Wild
  
