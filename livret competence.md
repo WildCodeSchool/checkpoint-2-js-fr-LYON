@@ -80,7 +80,17 @@ on peut aussi lui donner en paramètre -d Secondes pour lui donner un taux de ra
 
 >Faire un map permet de faire un nouveau tableau avec un "calcule" dessus, ou de "répété" plusieurs fois un élément. Par exemple, faire un gameList.map(<Gamelist />) appellera le composant GameList autant de fois que gameList le permettra.
 
+>Déployer une application est plutôt simple grace à netlify. On s'inscrit dessus avec son github, on lui donne le lien du repo ou de la branch, et on optiens un lien pour avoir le site "héberger" en ligne. Pour notre P2 on à heberger chaqu'un nos US ce qui permet de voir chaqu'un notre travail sans devoir faire des partages d'écran ou des pull à chaque fois.
+
+>Consomer un API c'est un peu comme écris plus haut pour récupéré les donners d'une API avec axios ou fetch, puis parcourir le JSON de l'api pour voir comment lui passer les bonnes données, et les faires s'afficher.
+
+>Faire un formulaire react n'est pas très complexe, seulement, il faut penser qu'on peut faire des composants controler grace au state et à la valeur value des différents inputs. Pour cela, on lie l'attribue value={this.state.Value} pour lui faire afficher une valeur de base, ou envoyer la valeur ou on veux, ou l'utiliser pour autre chose. Le reste du JSX se met dans le render et la value se gère avec le state.
+
  ### Wild
+ 
+>Mon niveau d'anglais disons que si je prend le temps je peut lire des textes, l'écrire un peu moins, et le parler j'ai pas du tout l'accent anglais... je peut donc au mieux lire les forums comme stacksoverflow.
+
+>Pour les groupes de communautés j'avais participer avec certains de mon groupe P1 a un meetup sur l'agilité avant le confinement, et donc je suis sur meetup sur l'appli. Le hack-à-thon bah... c'est le fameux moment ou personnes n'a le droit de dormir pendant 24H pour hiberner un week end complet? :p
  
  ### Scrum
 
