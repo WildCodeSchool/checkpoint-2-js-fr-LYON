@@ -73,3 +73,7 @@ on peut aussi lui donner en paramètre -d Secondes pour lui donner un taux de ra
 >Pour les composants avec map cela s'utilise surtout avec un tableau ou un objet et avec map on le parse pour lui effectuer un "calcule" et ensuite créer un nouveau tableau (tableau.map(paramètre => code)
 
 >Pour finir, pour le routing on la mis dans notre P2 ! C'est avec react router, à installer séparément, on peut même mettre des variables pour l'URL avec /:VariableName c'est top !
+
+###Wild
+
+
