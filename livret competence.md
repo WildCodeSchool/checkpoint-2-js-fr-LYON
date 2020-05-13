@@ -78,6 +78,8 @@ on peut aussi lui donner en paramètre -d Secondes pour lui donner un taux de ra
 		}
 >Le constructor est obligatoire SAUF si on utilise la récente syntaxe avec juste "state = { name: value } de plus si on met un constructor, super(props) deviens obligatoire. Il permet de récupéré les props de la class parent de react.
 
+>Faire un map permet de faire un nouveau tableau avec un "calcule" dessus, ou de "répété" plusieurs fois un élément. Par exemple, faire un gameList.map(<Gamelist />) appellera le composant GameList autant de fois que gameList le permettra.
+
  ### Wild
  
  ### Scrum
