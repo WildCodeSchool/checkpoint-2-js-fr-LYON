@@ -12,7 +12,8 @@ on peut aussi lui donner en paramètre -d Secondes pour lui donner un taux de ra
 >Pour les frameworks CSS on en avait pas utiliser à l'époque mais avec react bootsrap je comprend mieux.
 >1. On cherche sur le net ce qu'on veux exactement
 >2. On importe ou créer un projet Bootsrap
->3. On colle le code donner (en oubliant pas de faire import from ... depuis react ou la balise meta correspondante dans le html >4. Pour "personaliser" on doit souvent passer par des class et faire une "surcharge" du CSS déjà implanté de base.
+>3. On colle le code donner (en oubliant pas de faire import from ... depuis react ou la balise meta correspondante dans le html
+>4. Pour "personaliser" on doit souvent passer par des class et faire une "surcharge" du CSS déjà implanté de base.
     
  >Pour les pré-processeurs css (sass par ex) ça permet de géré dynamiquement le css, de façon à en faire casiment un langage de programation pure avec des fonctions, des boucles, des variables et j'en passe... Bref, même si avec CSS3 y'a plein de nouvelles choses comme des variables en natif, ça permet toujours plus de liberté ~et de faignantise pour le dev web moderne...~ oups ! ^^ en bref, le CSS plus structuré et plus puissant qu'en natif.
     
