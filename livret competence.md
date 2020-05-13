@@ -57,6 +57,8 @@ on peut aussi lui donner en paramètre -d Secondes pour lui donner un taux de ra
 	 
 >On peut aussi vérifier les mots de passe contenant bien un @ ou autre caractère spécial ect...
 
+>Babel et autres langages de transpilling permettent, entre autre, de convertir le langage ES6+ dans une version plus "ancienne" pour les navigateur ne le supportant pas encore par exemple. React l'inclut de base si je ne me trompe pas.
+
 
  ### React
 
