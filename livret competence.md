@@ -74,6 +74,6 @@ on peut aussi lui donner en paramètre -d Secondes pour lui donner un taux de ra
 
 >Pour finir, pour le routing on la mis dans notre P2 ! C'est avec react router, à installer séparément, on peut même mettre des variables pour l'URL avec /:VariableName c'est top !
 
-###Wild
+### Wild
 
 
