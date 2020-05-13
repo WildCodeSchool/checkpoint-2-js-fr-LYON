@@ -6,7 +6,14 @@
 
 > Pour les droits le chmod et le chown permettent ~(d'invoquer un gobelin euh...)~ de gérer les droits (chmod permet de gérer les r (read) x (execute) d (dossier) w (write) ) et chown de changer le propriétaire d'un dossier ou le groupe. Sudo permet d'exécuté de force n'importe quel commande en tant qu'admin système.
 
-> Pour le multi tache ps permet de lister les processus, top permet de faire comme le gestionnaire de tache windows avec un affichage dynamique, et kill permet de communiquer avec un processus, l'arrêter voir le tuer en cas de soucis.
+    > Pour le multi tache ps permet de lister les processus en affichant le PID (id en gros),
+    le TTY indique le port utilisé, 
+    TIME qui affiche le temps utilisé par le processus 
+    et CMD qui affiche le nom de la commande utilisé par le processus. 
+    On peut utiliser -aux pour le détailler. 
+    top permet de faire comme le gestionnaire de tache windows avec un affichage dynamique, 
+    on peut aussi lui donner en paramètre -d Secondes pour lui donner un taux de rafraichissemment.
+    et kill permet de communiquer avec un processus, l'arrêter voir le tuer en cas de soucis et ce, graçe à son ID (PID).
 
 > Pour la mise en place si je me trompe pas les commandes à connaitres sont sudo get-apt install et sudo get-apt update ou upgrade (y'a aussi des commandes curl et wget mais ça fonctionne avec des url)
 
