@@ -62,18 +62,10 @@ on peut aussi lui donner en paramètre -d Secondes pour lui donner un taux de ra
 
  ### React
 
->Pour le JSX c'est un mélange de xml et de react ce qui ressemble à envoyer des balises HTML avec des variables de react pour généré une page plus facilement
+  >Pour les hooks ça permet de rendre les composants fonctionnel dynamique, ce qui permet de gagner beaucoup de temps et un code plus concis graces aux useState qui se désctruture en 2 variable, une pour gérer une fonction ressemblant au setState, et l'autre étant un tableau contenant le contenu mis entre les useState() et ce qui est mis à jour via setCount(count + 1). Il y a aussi useContext, useRef, on peut en faire nous même...
 
->Pour le déboggeur c'est installé et utile, me faut juste la prise en main mais je sais l'utiliser
-
->Pour le composant fonctionnel en fait c'est une fonctions qui reçois les props d'un évenement ou autre et qui permet de rendre react dynamique, même si les class sont encore plus dynamique et pour les fonctions il faut plutôt des hooks 
-
->Pour l'affichage conditionel il y a surtout l'opérateur ternaire comme {favorite ? 'favorite' : '' } pour par exemple l'étoile de la quête simpson quotes
-
->Pour les composants avec map cela s'utilise surtout avec un tableau ou un objet et avec map on le parse pour lui effectuer un "calcule" et ensuite créer un nouveau tableau (tableau.map(paramètre => code)
-
->Pour finir, pour le routing on la mis dans notre P2 ! C'est avec react router, à installer séparément, on peut même mettre des variables pour l'URL avec /:VariableName c'est top !
-
-### Wild
+ ### Wild
+ 
+ ### Scrum
 
 
