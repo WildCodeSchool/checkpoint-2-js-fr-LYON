@@ -46,6 +46,17 @@ on peut aussi lui donner en paramètre -d Secondes pour lui donner un taux de ra
 >*Permet de contenir tout ses attributs et méthodes
 >*Permet de surcharger cette même class et lui changer ses attributs
 
+>Les regex sont très utiles, ça permet de, on va dire grossièrement, "comparé" des mots que l'utilisateur utilise, on peut par exemple vérifier que son adresse mail soit bien yyy@xxx.fr avec la suite 
+	
+	/.+@.+\..+/
+	(Commence par un ou plusieurs caractères => .+
+	 Contient ensuite le caractère @ => @
+	 Puis contient ensuite encore un ou plusieurs caractères => .+
+	 Prend ensuite le caractère . => \.
+	 Et finit par un ou plusieurs caractères => .+)
+	 
+>On peut aussi vérifier les mots de passe contenant bien un @ ou autre caractère spécial ect...
+
 
  ### React
 
