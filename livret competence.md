@@ -59,6 +59,23 @@ on peut aussi lui donner en paramètre -d Secondes pour lui donner un taux de ra
 
 >Babel et autres langages de transpilling permettent, entre autre, de convertir le langage ES6+ dans une version plus "ancienne" pour les navigateur ne le supportant pas encore par exemple. React l'inclut de base si je ne me trompe pas.
 
+>Les requêtes AJAX ( ~La lessive...~ pardon, l'asynchronous JavaScript and XML) permet de faire des requêtes aux api de façon asynchrone, donc sans recharger toute la page, pour juste mettre à jour une partie de celle ci (comme google drive, spotify...) et de façon native graçe à fetch inclut nativement dans javascript.
+
+>Les bibliothèques externes comme axios sont un peu comme fetch, mais en plus puissant avec de meilleurs gestions des erreurs, il faut juste l'installer avec npm install et l'importé dans son code.
+
+>Les .catch permettent, en cas d'erreurs par exemple, un temps de chargement trop long, de stoper la recherche de l'api et de renvoyer le code écrit dans la fonction (une alert(), un console.log, une redirection....)
+
+>Le schéma JSON, c'est une façon clair de lire des données d'une API. Par exemple : 
+
+	0:
+	   name: chuk,
+	   lastname: norris,
+	   job: divinité
+	1:
+	   screen: url
+
+Ect. En gros c'est un tableau d'objet, ou il faut jouer/chercher LA bonne info à récupérer pour son code.
+
 
  ### React
 
@@ -100,6 +117,13 @@ on peut aussi lui donner en paramètre -d Secondes pour lui donner un taux de ra
 
 >Pour se former à une techno, ça compte si je dit que mes bases pré wild s'étendaient jusqu'au niveau de la manipulation du DOM en JS graçe à openclassroom? sinon je connais aussi quelques youtubers comme lior chalma, des sites comme développez.net, codcademy ou encore stackoverflow, alsacréation, csstricks....
  
+ >Pitcher son idée c'est ce qu'on faisait pour les rétros/sprint planing/et lors du wireframes nan?
+ 
+ >Synthétiser des informations? c'est aussi un peu la démo qu'on faisait le vendredi nan?
+ 
  ### Scrum
 
-
+  - Savoir organiser les différents rituels scrum
+  - Savoir rédiger un backlog
+  - Etre en mesure de donner une estimation du temps de développement d'une histoire utlisateur	
+  - Savoir faire une démonstration de son projet
