@@ -78,7 +78,7 @@ on peut aussi lui donner en paramètre -d Secondes pour lui donner un taux de ra
 		}
 >Le constructor est obligatoire SAUF si on utilise la récente syntaxe avec juste "state = { name: value } de plus si on met un constructor, super(props) deviens obligatoire. Il permet de récupéré les props de la class parent de react.
 
->Faire un map permet de faire un nouveau tableau avec un "calcule" dessus, ou de "répété" plusieurs fois un élément. Par exemple, faire un gameList.map(<Gamelist />) appellera le composant GameList autant de fois que gameList le permettra.
+>Faire un map permet de faire un nouveau tableau avec un "calcule" dessus, ou de "répété" plusieurs fois un élément. Par exemple, faire un filteredGame.map(g => <Game key={g.id} {...g} handleClick={this.deletItem} />) appellera le composant Game autant de fois que filteredGame le permettra en lui passant les props de "g" (qui est l'indice du tableau en cours, donc le jeu actuelle).
 
 >Déployer une application est plutôt simple grace à netlify. On s'inscrit dessus avec son github, on lui donne le lien du repo ou de la branch, et on optiens un lien pour avoir le site "héberger" en ligne. Pour notre P2 on à heberger chaqu'un nos US ce qui permet de voir chaqu'un notre travail sans devoir faire des partages d'écran ou des pull à chaque fois.
 
