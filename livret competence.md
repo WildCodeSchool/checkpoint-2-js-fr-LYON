@@ -19,7 +19,18 @@ on peut aussi lui donner en paramètre -d Secondes pour lui donner un taux de ra
     
  >Pour les bonnes pratiques SEO (Search engine optimization) c'est pour mieux référencer le site ou l'appli graces aux petits robots/~esclaves de googles pour mieux surveiller le net~ et référencer le site le plus haut possible lors d'une recherche sur les différens moteurs de recherches. Pour cela on peu déjà utiliser le validateur W3C et ensuite faire des balises meta courtes, avec description/auteurs/langues, utilisation des bonnes balises sémantiques, les alts sur les images....
  
- >Pour les ESN y'a les ESN ou la c'est une entreprise qui t'engage et t'envoie chez le cliens pour bosser directement chez eux. Pour les freelances c'est les personnes qui éxecute leurs métiers souvent seuls, sans boites ou patron, directement avec leurs clients. Pour cela il faut avoir de solides bases à mon sens pour évoluer et se faire une place dans ces eaux la.
+ >Pour les métiers web :
+    -ESN
+
+>C'est une Entreprise de Service du Numérique. Le principe est de réaliser une prestation directement auprès d'un client. C'est un métier avec beaucoup de déplacement sur des missions plus ou moins longue.
+
+   -Agence Web
+
+>C'est une entreprise spécialisée dans les différentes formes de communication et de promotion sur le web.
+
+   -Freelance
+
+>C'est un développeur travaillant pour son propre compte.
 
 ### ES6+
 
