@@ -135,6 +135,9 @@ Ect. En gros c'est un tableau d'objet, ou il faut jouer/chercher LA bonne info �
  ### Scrum
 
   - Savoir organiser les différents rituels scrum
-  - Savoir rédiger un backlog
-  - Etre en mesure de donner une estimation du temps de développement d'une histoire utlisateur	
-  - Savoir faire une démonstration de son projet
+  
+>Le backlog c'est un genre de trello qu'on fait sur un tableaux excel ou google doc et dedans on y met la méthodologie Mscow et on décrit les US, quelles critères de validation, si c'est must should could... ce qu'il faudrait faire ect...
+  
+>L'estimation on la faisait à chaque sprint planing avec le pokerit chaqu'un disais pourquoi il à choisi telle niveau de complexité et on faisait une synthèse ensuite du temps pour l'ajouté au zehub.
+  
+>La démo projet on en à fait toutes les semaines c'était un peu long ^^'
