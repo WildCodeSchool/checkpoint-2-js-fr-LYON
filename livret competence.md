@@ -7,6 +7,10 @@ on peut aussi lui donner en paramètre -d Secondes pour lui donner un taux de ra
 
 >Pour les tags de git, ça sert, si j'ai bien compris, à mettre une étiquette de "version" sur un état de publication avec git tag -a v1.0.3 -m 'ma version v1.0.3'. On peut les listers avec git tag et affiner la rechercher avec une commande du style : git tag -l 'v1.0.3*' pour ne lister que les versions 1.0.3.X.
 
+>Pour la PR à relire par les autres, lors d'une pull request on ajoute les personnes depuis github à qui on veux que la pr fasse une notif pour qu'ils viennent voir et donner leurs avis/suggesstions/correction.
+
+>Pour les commits atomiques et les pr taille humaine : Des commits atomiques c'est faire git commit -m "#NumdeLus et décrire l'ajout fait" et le faire au mieux quand l'appli est fonctionnel, et non face à une erreur ou un bug pour revenir en arrière à tout moment. Les PR à taille humaine c'est une PR pas comme celle qu'on ta fait la première semaine sur notre P2, donc séparé les PR par US pour que le code reviewer et le client/po puissent valider des petites partie à merge, plutôt qu'un énorme ajout qui risque de tout cassé.
+
 ### Integration
 
 >Pour les frameworks CSS on en avait pas utiliser à l'époque mais avec react bootsrap je comprend mieux.
@@ -20,17 +24,12 @@ on peut aussi lui donner en paramètre -d Secondes pour lui donner un taux de ra
  >Pour les bonnes pratiques SEO (Search engine optimization) c'est pour mieux référencer le site ou l'appli graces aux petits robots/~esclaves de googles pour mieux surveiller le net~ et référencer le site le plus haut possible lors d'une recherche sur les différens moteurs de recherches. Pour cela on peu déjà utiliser le validateur W3C et ensuite faire des balises meta courtes, avec description/auteurs/langues, utilisation des bonnes balises sémantiques, les alts sur les images....
  
  >Pour les métiers web :
-    -ESN
+ 
+>ESN : C'est une Entreprise de Service du Numérique. Le principe est de réaliser une prestation directement auprès d'un client. C'est un métier avec beaucoup de déplacement sur des missions plus ou moins longue.
 
->C'est une Entreprise de Service du Numérique. Le principe est de réaliser une prestation directement auprès d'un client. C'est un métier avec beaucoup de déplacement sur des missions plus ou moins longue.
+>Agence Web : C'est une entreprise spécialisée dans les différentes formes de communication et de promotion sur le web.
 
-   -Agence Web
-
->C'est une entreprise spécialisée dans les différentes formes de communication et de promotion sur le web.
-
-   -Freelance
-
->C'est un développeur travaillant pour son propre compte.
+>Freelance : C'est un développeur travaillant pour son propre compte.
 
 ### ES6+
 
@@ -134,7 +133,7 @@ Ect. En gros c'est un tableau d'objet, ou il faut jouer/chercher LA bonne info �
  
  ### Scrum
 
-  - Savoir organiser les différents rituels scrum
+>Les rituels scrum sont d'abord le sprint planning chaque vendredi matin qui permet de faire les US à venir, le backlog, les points de complexité à attribuer graçe au planetit. Il y a aussi le daily scrum (genre de checkin/stand up) qui nous permet de voir qui est bloquer, sur quoi, ce qui à été fait la veille ect... Le sprint review lui, permet de montré ce qui à été fait la semaine passée, sous forme de démo, pour montré les fonctionnalité implémenté au PO pour savoir son ressentie, si ça respecte ses envies, si y'a des choses à changer ect. Et la sprint rétro qui permet de faire un point sur l'équipe, comment s'est passer la semaine, si y'a eu des soucis, des ressenties, de l'entente de l'équipe...
   
 >Le backlog c'est un genre de trello qu'on fait sur un tableaux excel ou google doc et dedans on y met la méthodologie Mscow et on décrit les US, quelles critères de validation, si c'est must should could... ce qu'il faudrait faire ect...
   
