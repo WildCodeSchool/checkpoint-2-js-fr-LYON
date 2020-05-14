@@ -1,5 +1,6 @@
 import React, {Component} from "react";
 import axios from "axios";
+import './game.css';
 import Game from './Game';
 
 
@@ -39,7 +40,7 @@ class GameList extends Component {
     return (
     
           <div className="display-name">
-          <h1 className="App-title">List of Games</h1>
+          <h1 className="Game-title">List of Games</h1>
         {
          gamelist
            .map(g => (

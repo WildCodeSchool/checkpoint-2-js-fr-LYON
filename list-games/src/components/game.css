@@ -3,7 +3,7 @@
     display: flex;
     padding: 1.25em;
     width: 400px;
-    border: 1px solid #f8f8f8;
+    border: 1px solid black;
     border-radius: 2px;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.15);
     font-size: 1.2em;
@@ -32,4 +32,10 @@
   
   .GameCard figcaption p span.is-favorite {
     color: #ecc94b;
+  }
+  .Game-title{
+
+    color:grey;
+    align-items: center;
+    
   }

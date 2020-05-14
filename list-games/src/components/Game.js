@@ -22,7 +22,7 @@ function Game(props) {
         </blockquote>
 
         <button onClick={() => props.handleDelete(props.name)}>
-          Delete this game
+        Delete this game 🚫
         </button>
       </figcaption>
     </figure>
