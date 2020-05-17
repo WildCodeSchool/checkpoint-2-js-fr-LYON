@@ -117,6 +117,14 @@ Ect. En gros c'est un tableau d'objet, ou il faut jouer/chercher LA bonne info �
 
 >Les events c'est des attributs à mettre sur les formulaires, les boutons ou les liens le plus souvent pour lier au state ou une méthode à une action. Par exemple lier le onChange à la méthode handleChange qui permet de changer un état lors d'une mise à jours des props, un autre onClick quand on clique sur un bouton pour par exemple changer l'état d'un bouton filter comme lors du checkpoint 2 avec les best games : all games ect.
 
+>Pour le context, cela permet de passer disons... un état dans un composant très profond dans la hiérachie, sans devoir passer des props "inutiles" à tout les composant au dessus de lui. La syntaxte ressemble un peu à ça : 
+
+	<ThemeContext.provider value={theme}>
+		div, code qui permet l'affichage ect
+	</ThemeContext.provider>
+	
+>Cela permet de géré la d'ou viendra le context voulut et le code qui en sera affecter (bien sur, TheContext est un composant dans un autre fichier qui contiendra l'objet, le theme, les variables ect les fonctions dont on veux passer plus loin, et qui sera créer et exporter via React.createContext();) et ensuite, on utilise le hooks useContext(ThemeContext) pour l'affecter à une variable ou même le destructuré pour, par exemple, récupéré la fonction voulut ainsi que la couleur du theme ect.
+
  ### Wild
  
 >Mon niveau d'anglais disons que si je prend le temps je peut lire des textes, l'écrire un peu moins, et le parler j'ai pas du tout l'accent anglais... je peut donc au mieux lire les forums comme stacksoverflow.
