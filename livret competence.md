@@ -123,7 +123,7 @@ Ect. En gros c'est un tableau d'objet, ou il faut jouer/chercher LA bonne info �
 		div, code qui permet l'affichage ect
 	</ThemeContext.provider>
 	
->Cela permet de géré la d'ou viendra le context voulut et le code qui en sera affecter (bien sur, TheContext est un composant dans un autre fichier qui contiendra l'objet, le theme, les variables ect les fonctions dont on veux passer plus loin, et qui sera créer et exporter via React.createContext();) et ensuite, on utilise le hooks useContext(ThemeContext) pour l'affecter à une variable ou même le destructuré pour, par exemple, récupéré la fonction voulut ainsi que la couleur du theme ect.
+>Cela permet de géré la d'ou viendra le context voulut et le code qui en sera affecter (bien sur, ThemeContext est un composant dans un autre fichier qui contiendra la forme des données, donc l'objet, le theme, les variables ect les fonctions dont on veux passer plus loin, et qui sera créer et exporter via React.createContext();) et ensuite, on utilise le hooks useContext(ThemeContext) pour l'affecter à une variable ou même le destructuré pour, par exemple, récupéré la fonction voulut ainsi que la couleur du theme ect.
 
  ### Wild
  
