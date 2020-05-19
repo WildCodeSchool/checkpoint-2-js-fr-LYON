@@ -79,7 +79,7 @@ on peut aussi lui donner en paramètre -d Secondes pour lui donner un taux de ra
 
 >Les bibliothèques externes comme axios sont un peu comme fetch, mais en plus puissant avec de meilleurs gestions des erreurs, il faut juste l'installer avec npm install et l'importé dans son code.
 
->Les .catch permettent, en cas d'erreurs par exemple, un temps de chargement trop long, de stoper la recherche de l'api et de renvoyer le code écrit dans la fonction (une alert(), un console.log, une redirection....)
+>Les .catch permettent, en cas d'erreurs par exemple, un temps de chargement trop long, de stoper la recherche de l'api et de renvoyer le code écrit dans la fonction (une alert(), un console.log, une redirection....). Try est un genre de bloc de code à éxécuté, et si ça ne fonctionne pas, catch prend la relève, sinon, le reste du bloc s'éxécute normalement, et à la fin, finnaly fait ses propres exécutions qu'une erreur ai eu lieu ou non.
 
 >Le schéma JSON, c'est une façon clair de lire des données d'une API. Par exemple : 
 
