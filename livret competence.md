@@ -69,7 +69,13 @@ on peut aussi lui donner en paramètre -d Secondes pour lui donner un taux de ra
 
 >Babel et autres langages de transpilling permettent, entre autre, de convertir le langage ES6+ dans une version plus "ancienne" pour les navigateur ne le supportant pas encore par exemple. React l'inclut de base si je ne me trompe pas.
 
->Les requêtes AJAX ( ~La lessive...~ pardon, l'asynchronous JavaScript and XML) permet de faire des requêtes aux api de façon asynchrone, donc sans recharger toute la page, pour juste mettre à jour une partie de celle ci (comme google drive, spotify...) et de façon native graçe à fetch inclut nativement dans javascript.
+>Les requêtes AJAX ( ~La lessive...~ pardon, l'asynchronous JavaScript and XML) permet de faire des requêtes aux api de façon asynchrone, donc sans recharger toute la page, pour juste mettre à jour une partie de celle ci (comme google drive, spotify...) et de façon native graçe à fetch inclut nativement dans javascript. Quand on fait une requête :
+
+	fetch.get(url)
+		.then(res => res.data)
+		.then(data => console.log(data));
+		
+>Le fetch récupère les données via l'URL grace à la méthode GET, puis le premier then va chercher une response dans le data de l'api (si c'est un tableau faut mettre [0] derrière) et ensuite le deuxième nous permet de manipuler les données de la data.
 
 >Les bibliothèques externes comme axios sont un peu comme fetch, mais en plus puissant avec de meilleurs gestions des erreurs, il faut juste l'installer avec npm install et l'importé dans son code.
 
