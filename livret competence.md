@@ -137,7 +137,7 @@ Ect. En gros c'est un tableau d'objet, ou il faut jouer/chercher LA bonne info �
 
 >Pour les groupes de communautés j'avais participer avec certains de mon groupe P1 a un meetup sur l'agilité avant le confinement, et donc je suis sur meetup sur l'appli. Le hack-à-thon bah... c'est le fameux moment ou personnes n'a le droit de dormir pendant 24H pour hiberner un week end complet? :p
 
->Pour la présence sur internet ainsi que la partie de la veille, j'ai mon linkdin avec la quête de l'expé précedente, mon cv sur le drive, mon github bah... il sous vos yeux :p, j'avais déjà un compte twitter pour suivre les actus de jeux, je rajoute petit à petit des actus du monde technologiques, et la veille j'ai les flux rss.....................................................................................................................
+>Pour la présence sur internet ainsi que la partie de la veille, j'ai mon linkdin avec la quête de l'expé précedente, mon cv sur le drive, mon github bah... il sous vos yeux :p, j'avais déjà un compte twitter pour suivre les actus de jeux, je rajoute petit à petit des actus du monde technologiques, et la veille j'ai les flux rss comme feedly et refind.
 
 >Pour se former à une techno, ça compte si je dit que mes bases pré wild s'étendaient jusqu'au niveau de la manipulation du DOM en JS graçe à openclassroom? sinon je connais aussi quelques youtubers comme lior chalma, des sites comme développez.net, codcademy ou encore stackoverflow, alsacréation, csstricks....
  
