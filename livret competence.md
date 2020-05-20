@@ -90,7 +90,9 @@ on peut aussi lui donner en paramètre -d Secondes pour lui donner un taux de ra
 	1:
 	   screen: url
 
-Ect. En gros c'est un tableau d'objet, ou il faut jouer/chercher LA bonne info à récupérer pour son code.
+>Ect. En gros c'est un tableau d'objet, ou il faut jouer/chercher LA bonne info à récupérer pour son code.
+
+>Cela permet d'attendre en gros la fin d'une requête API pour que ça soit synchrone avec l'appli car des fois (par exemple, le state) se mettais à jour alors que l'API n'avais pas fini sa requête. Une promesse est, si je me trompe pas, ce que retourne l'api en gros, les données normalment. Le await demande lors de l'appelle à l'api lors d'une requête ajax, d'attendre le retour d'une "promesse" pour pouvoir faire la fonction d'après, ou de se faire ajouté à une variable, et async permet de dire que la fonction qui gère cette requête et cette promesse sont donc asynchrone et doivent attendre que tout soit bien récupéré avant de passer à la suite.
 
 
  ### React
