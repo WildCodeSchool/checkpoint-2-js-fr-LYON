@@ -96,6 +96,21 @@ Création d'un tag simple :
 $ git tag v0.1
 ```
 
+pour voir le tag il suffit de saisir la commande suivante :
+```bash
+$ git show v0.1
+commit 94fd7b5f8e2be2bdb8c6f78fc11f5d0a5072462b (HEAD -> lyon_chevalier_amelie, tag: v0.1)
+Author: Amélie <ameliechevalier3006@gmail.com>
+Date:   Fri May 22 21:20:36 2020 +0200
+
+    tag de git
+```
+
+pour créer un tag annoté, il suffit de raouter la commande -a à la création du tag, et -m pour ajouter un message.
+```bash
+
+```
+
 ## Wild
 
 ### Organiser sa veille techno
