@@ -91,6 +91,8 @@ Chaque semaine en fin de Sprint, et au Démo-Day.
 
 Les tags de Git sont des étiquettes que l'on peut assigner à des commit particuliers. On peut créer des étiquettes légères ou annoté, selon l'information que l'on souhaite conserver.
 
+La commande ```$ git tag``` permet d'afficher tous les tags existants.
+
 Création d'un tag simple :
 ```bash
 $ git tag v0.1
