@@ -107,9 +107,24 @@ Date:   Fri May 22 21:20:36 2020 +0200
 ```
 
 pour créer un tag annoté, il suffit de raouter la commande -a à la création du tag, et -m pour ajouter un message.
-```bash
+on voit ici que pour ce tag, on a plus d'informations sur le commit concerné, avec le créateur du tag la date et le message du commt.
 
+```bash
+$ git tag -a v0.2 -m "mon tag annoté"
+$ git show tag v0.2
+tag v0.2
+Tagger: Amélie <ameliechevalier3006@gmail.com>
+Date:   Fri May 22 21:30:05 2020 +0200
+
+mon tag annoté
+
+commit 2285019149fa7113f245569d1e19c49b26b1560e (HEAD -> lyon_chevalier_amelie, tag: v0.2)
+Author: Amélie <ameliechevalier3006@gmail.com>
+Date:   Fri May 22 21:29:42 2020 +0200
+
+    création tag annoté
 ```
+Pour annoter un commit passé, il suffit de rajouter le numéro unique du commit à la fin de la commande de tag.
 
 ## Wild
 
