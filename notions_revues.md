@@ -136,11 +136,11 @@ Pour annoter un commit passé, il suffit de rajouter le numéro unique du commit
 ### Pitcher son idée / projet en un temps limité
 ### Maintenir une présence à jour et de qualité en ligne (CV en ligne ex. sur linkedin, réseaux sociaux, Github, portfolio, billets de blog)
 
-Je suis active sur LinkedIn, mon profil et mon CV sont à jour, je me tiens informées des news dans le secteur de la tech, je suis abonée aux groupes d'interet et je développe mon réseau.
+Je suis active sur LinkedIn, mon profil et mon CV sont à jour, je me tiens informée des news dans le secteur de la tech, je suis abonnée aux groupes d'interet et je développe mon réseau.
 
 ### Concevoir et rédiger un CV et un email d'accompagnement personnalisé
 
-CV à jour.
+CV à jour. J'ai l'habitude des candidatures, en anglais, en français, avec mail personalisés ou lettres de motivation.
 
 ### Utiliser l'anglais dans son activité professionnelle
 
@@ -149,11 +149,17 @@ L'anglais c'est ok pour moi, dans la vie quotidienne comme professionnelle.
 ## JavaScript
 
 ### Maîtrise de XmlHttpRequest(AJAX) / Fetch API
-### Maîtriser les Regex	A acquérir
+### Maîtriser les Regex
+
+Quête Regex : Les expression régulières réalisée. Cependant, manque de pratique dans des cas concrêts, encore à acquérir. 
+
 ### Maîtrise de Promise + Découverte Async/Await
 ### Maîtrise des Exceptions (try/catch/finally)
 ### Exploiter un schema JSON et exploiter une API
 ### Travailler avec des bibliothèques externes (Axios, Moment, Lodash ...)
+
+
+
 ### Maîtrise d'un outil de transpiling (Babel, traceur...)
 
 Babel permet au navigateur de comprendre le JSX et de le retourner au client. En utilisant create-react-app, babel est inclu dans la configuration. 
