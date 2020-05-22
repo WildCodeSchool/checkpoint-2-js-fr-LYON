@@ -89,6 +89,13 @@ Chaque semaine en fin de Sprint, et au Démo-Day.
 
 ### Savoir utiliser les tags de Git
 
+Les tags de Git sont des étiquettes que l'on peut assigner à des commit particuliers. On peut créer des étiquettes légères ou annoté, selon l'information que l'on souhaite conserver.
+
+Création d'un tag simple :
+```bash
+$ git tag v0.1
+```
+
 ## Wild
 
 ### Organiser sa veille techno
@@ -116,6 +123,8 @@ L'anglais c'est ok pour moi, dans la vie quotidienne comme professionnelle.
 ### Exploiter un schema JSON et exploiter une API
 ### Travailler avec des bibliothèques externes (Axios, Moment, Lodash ...)
 ### Maîtrise d'un outil de transpiling (Babel, traceur...)
+
+Babel permet au navigateur de comprendre le JSX et de le retourner au client. En utilisant create-react-app, babel est inclu dans la configuration. 
 
 ## React
 
