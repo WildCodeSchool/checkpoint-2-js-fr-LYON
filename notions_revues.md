@@ -213,6 +213,6 @@ L'idée est d'avoir un state dans App, le composant le plus haut, ce qui permet 
 
 ### Utiliser la Context API
 
-
+J'ai regardé les vidéos de The Net Ninja à propos de l'API Context pour comprende le principe, la mise en place et l'utilisation d'un seul puis de plusieurs contexts. Mise en pratique avec l'atelier à la fin du cours, mais manque de pratique, toujours en cours d'acquisition.
 
 ### Utiliser les hooks
