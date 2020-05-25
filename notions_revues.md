@@ -89,7 +89,7 @@ Chaque semaine en fin de Sprint, et au Démo-Day.
 
 ### Savoir utiliser les tags de Git
 
-Les tags de Git sont des étiquettes que l'on peut assigner à des commit particuliers. On peut créer des étiquettes légères ou annoté, selon l'information que l'on souhaite conserver.
+Les tags de Git sont des étiquettes que l'on peut assigner à des commit particuliers. On peut créer des étiquettes légères ou annotées, selon l'information que l'on souhaite conserver.
 
 La commande ```$ git tag``` permet d'afficher tous les tags existants.
 
@@ -134,11 +134,11 @@ Pour annoter un commit passé, il suffit de rajouter le numéro unique du commit
 ### S'autoformer à une nouvelle technologie
 ### Synthétiser des informations et les présenter aux autres
 
-Compétence acquise au cours de mes études et expriences professionelle, appliquées à la wild au cours de la présentation de la veille techno mais aussi les présentations de projet quand j'étais product owner.
+Compétence acquise au cours de mes études et expriences professionelle, appliquée à la wild au cours de la présentation de la veille techno mais aussi des présentations de projet quand j'étais product owner.
 
 ### Pitcher son idée / projet en un temps limité
 
-Je me suis entrainée pour le P2, mais je pense que c'est encore en cours d'acquisition, avec de l'entraînement pendant le P3.
+Je me suis entrainée pour le P2, mais je pense que c'est encore en cours d'acquisition, avec de l'entraînement à venir pendant le P3.
 
 ### Maintenir une présence à jour et de qualité en ligne (CV en ligne ex. sur linkedin, réseaux sociaux, Github, portfolio, billets de blog)
 
