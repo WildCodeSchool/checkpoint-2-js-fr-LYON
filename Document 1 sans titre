@@ -1,0 +1,92 @@
+### App ###
+
+
+import React, { Component } from "react";
+import GameList from "./components/GameList";
+import axios from "axios";
+
+export default class App extends Component {
+  constructor (props) {
+    super(props);
+    this.state = {
+      games: []
+    };
+  }
+
+  componentDidMount() {
+    this.getGames();
+  }
+
+  getGames = () => {
+    axios
+    .get('https://wild-games.herokuapp.com/api/v1')
+    .then((response) => {
+      this.setState({ games: response.data });
+    }, (error) => {
+      console.log(error);
+    });
+  };
+
+  delGame = (name) =>{
+    // this.setState({games: [...this.state.games.filter(game => game.name !== name)]});
+    console.log(name)
+  }
+
+  render() {
+    return (
+      <div className="App">
+        <GameList games={this.state.games} delGame={this.delGame}/>
+      </div>
+    );
+  }
+}
+
+### GameList ###
+
+import React, { Component } from "react";
+import Game from './Game';
+
+export default class GameList extends Component () {
+  render(){
+    // const {games, delGame} = this.props.games;
+    const ComposantIntermediaire = (games) => {
+
+      return (
+        <div>
+          {
+          games.map((game) => (
+          <Game key={ComposantIntermediaire.id} {...ComposantIntermediaire} delGame={this.props.delGame}/>
+          ))
+          }
+        </div> 
+      )
+
+    }
+
+  }   
+}
+
+### Game ###
+
+import React, { Component } from "react";
+import './Game.css';
+
+export default class Game extends Component () {
+  
+  render(){
+    const props = this.props.games;
+    return (
+      <div>
+      <h1>Name:{props.name}</h1>
+      <p>released : {props.released}</p> 
+      <p>rating : {props.rating}</p> 
+      <img src={props.background_image} alt={props.name} className='gameImg' /> 
+      {/* <button onClick={this.props.delGame.bind(this, props.name)} >Delete Game</button> */}
+      {/* <button onClick={props.delGame(props.name)}>Delete Game</button> */}
+      </div>
+      )
+  }
+}
+
+
+
