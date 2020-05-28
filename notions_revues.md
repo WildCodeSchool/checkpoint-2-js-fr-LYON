@@ -155,6 +155,10 @@ L'anglais c'est ok pour moi, dans la vie quotidienne comme professionnelle.
 ## JavaScript
 
 ### Maîtrise de XmlHttpRequest(AJAX) / Fetch API
+
+Utilisation de fetch pour les requêtes. Fetch() prend un argument : l'url à requêter, et retourne une promesse (promise) qui contient un objet de type Response. Si une erreur se produit, la requête retourne un TypeError qui peut indiquer une erreur réseau ou de permission. Il est utilise de vérifer que la requête s'est bien passé en vérifiant que response.ok soit égale à true.
+Pour des requêtes plus complexes, fetch() peut prendre un argument optionnel (init) qui permet de contrôler des réglages grâce à différents options.  
+
 ### Maîtriser les Regex
 
 Quête Regex : Les expression régulières réalisée. Cependant, manque de pratique dans des cas concrêts, encore en cours d'acquisition. 
@@ -185,7 +189,8 @@ Babel permet au navigateur de comprendre et interpréter le JSX et de le retourn
 ### Consommer une API
 
 Découvert au cours du P2, renforcé au hackathon, confirmé au checkpoint 2. 
-Utilisation d'axios ou de fetch, avec l'url à requêter et traitement des données renvoyées par les API dans les .then() pour extraire les data voulues. Beaucoup de travail pour comprendre les documentation des API, comment faire les bonnes requêtes et traiter correctement les données. 
+Utilisation d'axios ou de fetch, avec l'url à requêter et traitement des données renvoyées par les API dans les .then() pour extraire les data voulues. 
+Beaucoup de travail pour comprendre les documentation des API, comment faire les bonnes requêtes et traiter correctement les données selon le format dans lequel elles sont envoyées.
 
 ### Déployer mon application
 
