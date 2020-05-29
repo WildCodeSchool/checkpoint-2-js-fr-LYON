@@ -1,0 +1,80 @@
+SCRUM
+
+Savoir organiser les différents rituels scrum:
+Il existe différents rôle autour de la méthode SCRUM: 
+    - Le Product Owner qui fait le lien entre l'équipe et le client
+    - Le SCRUM master qui gere la méthodologie Scrum 
+    - CR le code reviewer qui vérifie le code avant de l'envoyer 
+La méthode agile SCRUM repose sur la communication parmi les rituels SCRUM on retrouve les daily par exemple
+( on fait un point en faisant un tour de table pour savoir l'avancé du projet et de chacun ainsi que le ressenti de toute l'équipe).
+ Il y a aussi le planning poker qui permet de savoir la difficulté d'une user story pour chaque user story et chaque sprint
+
+Savoir rédiger un backlog:
+Regrouper et définir les besoins du client dans une sorte de tableau compréhensible par le client. Au fur et à mesure de 
+l'avancement du projet le backlog peut être amené à évoluer.
+
+		
+Savoir faire une démonstration de son projet:
+L'utilisation des slides comme support ainsi qu'une démonstration de l'avancement du projet si besoin. Pouvoir être compris 
+par le client et s'adapter à lui. Être en mesure d’expliquer ce qui a été fait.
+
+GIT
+
+Savoir utiliser les tags de Git:
+Des tag sont mis à disposition pour les issue etc, je peux les utiliser afin d’être plus précis par rapport à mes demandes 
+et mes PR (cela permet une meilleur communication et compréhension dans le projet).
+
+INTEGRATION
+
+Utiliser un framework CSS (Bootstrap, MaterializeCSS, ...):
+Dans le projet 2 nous avons utilisé Bootstrap il suffit d'abord de faire un import et ensuite on peut l'utiliser dans le CSS
+
+Connaître les différents métiers du developpement web (ESN, agence web, freelance...):
+Grace au multiples interventions j'ai une image plus précise des métier du développement
+  - une ESN est une entreprise de service numérique 
+  - le freelance est un travailleur indépendant à la fois entrepreneur, propriétaire et son propre employé
+- l'agence web c'est une entreprise spécialisée dans les différentes formes de communication et de promotion sur dans le milieu du web
+
+
+Respecter les bonnes pratiques SEO:
+SEO (Search Engine Optimization), cela permet une meilleur optimisation du contenu d'un site, cela permet une meilleur visibilité du site sur internet.
+
+Organiser sa veille technologique: 
+Je cherche sur différent site et sur les infos aussi des informations d'actualité sur le milieu de la tech et du web
+
+Autoformation à une nouvelle technologie: 
+J'utilise les ressources donnée dans les quêtes et je cherche aussi de mon coté des tutoriel, vidéos, docs ainsi que des articles en liant avec les veilles technos
+
+Synthétiser des informations et les présenter aux autres:
+Aller à l'essentiel et présenter des infos utiles et c de manière concise 
+
+Pitcher son idée / son projet en un temps limité: 	
+J'ai eu l'occasion de le faire au travers du projet 1,2 et 3 ainsi que pour le hackhaton 	
+
+Savoir se présenter en moins d'une minute:
+Je peux me présenter à des futurs employeurs ou client 
+
+Maintenir une présence à jour et de qualité en ligne:
+Mon CV est à jour et en ligne ainsi que mon profil Linkedin. Mon portfolio ainsi que mon Github seront bientôt à jour
+
+Utiliser l'anglais dans son activité professionnelle:
+Cela ne me pose pas de soucis j'ai étudié l'anglais 
+
+JAVASCRIPT 
+
+Travailler avec des bibliothèques externes:
+Au travers du dernier projet en date et dans les quêtes pour l'utilisation des api j'ai eu l'occasion de faire des import et d'utiliser axios pour récupérer 
+des données
+
+REACT
+
+Savoir interpréter un message d'erreur:
+Il existe plusieurs messages d'erreur qu'il faut savoir interpréter afin de résoudre les soucis et les erreurs présent sur le site ou l'application
+par exemple: token ce message permet de voir qu'il y a un soucis dans le langage ( une virgule, une parenthèse etc...), j'apprends chaque jour à corriger différentes erreurs
+
+Utiliser un débogueur (chrome react tool):
+Avec l'extension react tool sur Chrome j'utilise le débogueur qui me permet de mieux inspecter les éléments présents sur l'application
+ 			
+Déployer mon application:
+Au travers de Netlify en lien avec Github ( avec le repo du projet) je peux déployer mon application  
+
