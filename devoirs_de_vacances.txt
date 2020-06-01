@@ -1,0 +1,26 @@
+
+.[LYON] Pierre Genthon  11 h 16
+@canal [IMPORTANT] Comme pour le premier checkpoint, une serie d'entretiens individuels seront organisés après les vacances afin de faire un point technique et de valider les items de vos livrets de compétences.
+Pour le 25 mai, merci de parcourir les compétences suivantes :
+- UNIX : Tout
+- SCRUM :
+  - Savoir organiser les différents rituels scrum
+  - Savoir rédiger un backlog
+  - Etre en mesure de donner une estimation du temps de développement d'une histoire utlisateur	
+  - Savoir faire une démonstration de son projet
+- Git : Tout (manque tags)
+- Intégration : Tout (pré-processeurs CSS et pratiques SOE)
+- Wild
+  - Organiser sa veille technologique en s'abonnant et suivant régulièrement les ressources clés du développeur (newsletters, blogs, agrégation de flux RSS via Feedly, twitter, forums, magazines...) pour connaître les technologies émergentes et leurs applications, les besoins du marché
+  - S'autoformer à une nouvelle technologie en utilisant les ressources appropriées telles que tutoriel, vidéos, docs, évaluer les avantages et les inconvénients de la technologie [EN COURS]
+  - Synthétiser des informations et les présenter aux autres [NON]
+  - Pitcher son idée / son projet en un temps limité [NON]
+  - Maintenir une présence à jour et de qualité en ligne (CV en ligne ex. sur linkedin, réseaux sociaux, Github, portfolio, billets de blog)
+  - Concevoir et rédiger un CV et un email d'accompagnement personnalisé [NON]
+  - Utiliser l'anglais dans son activité professionnelle
+- JS: Tout (excepté "File API" et "Notification API")
+- React: Tout (excepté "bonnes pratiques de sécurité", "Créer des tests unitaires/fonctionnels", "Mettre en place une authentification", "Mettre en place Redux")
+Pour chaque item pas encore validé, merci de me faire une petite synthèse sur ce que vous savez/savez faire par rapport à la notion en question (vous pouvez reprendre vos fichiers "compétences.md" du premier checkpoint, le compléter et le pousser sur votre branche du checkpoint 2), cela nous servira de support pour valider les différents items lors de l'entretien.
+Cette fois, ce n'est pas moi qui vous demanderai si vous souhaitez essayer de valider telle ou telle notion. C'est vous qui en ferez la demande. En vous basant sur ce que vous avez écrit dans votre synthèse, il faudra me prouver que vous maîtriser la notion. Je vous poserai éventuellement quelques questions pour m'assurer que c'est ok et on pourra valider :visage_légèrement_souriant:
+Si un des item du livret ne vous paraît pas clair, n'hésitez pas me poser des questions en répondant à ce message :clin_d'œil:
+

@@ -43,8 +43,8 @@ class GameList extends React.Component {
     }
   };
 
-  componentDidMount () {
-    this.getData();
+  async componentDidMount () {
+   await this.getData();
   }
 
   handleDeleteGame (gameId) {
@@ -70,7 +70,7 @@ class GameList extends React.Component {
      
     return (
       <div>
-        { (this.state.loading) ? (<p>Loading data...</p>) : (
+        {   (
           <div>
             <h1>Welcome to the game list of a non-gamer guy!</h1>
             <button onClick={() => this.handleRatedGames()}>{this.state.allGamesSelected ? 'Best games' : 'All games'}</button>
