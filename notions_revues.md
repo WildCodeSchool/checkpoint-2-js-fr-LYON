@@ -76,6 +76,7 @@ Pratiqué tout au long du P2 : Daily stand-up, rétro, sprint planning avec spri
 ### Savoir rédiger un backlog
 
 Réalisé au début du P2 puis ré-ajusté tout au long du projet, en prenant en compte les besoins du client et en modifiant les US au moment de les évaluer et de définir les tâches.
+Réalisé aussi pour le P3, en partant de la note de cadrage.
 
 ### Etre en mesure de donner une estimation du temps de développement d'une histoire utlisateur	
 
@@ -178,7 +179,7 @@ Bien vu lors des quêtes, déjà bien compris à ce moment là, et exploité à 
 
 ### Travailler avec des bibliothèques externes (Axios, Moment, Lodash ...)
 
-Bibliothèques utilisées pendant le P2.
+Bibliothèques utilisées (Lodash et Axios) pendant le P2.
 
 ### Maîtrise d'un outil de transpiling (Babel, traceur...)
 
@@ -221,3 +222,5 @@ L'idée est d'avoir un state dans App, le composant le plus haut, ce qui permet 
 J'ai regardé les vidéos de The Net Ninja à propos de l'API Context pour comprende le principe, la mise en place et l'utilisation d'un seul puis de plusieurs contexts. Mise en pratique avec l'atelier à la fin du cours, mais manque de pratique, toujours en cours d'acquisition.
 
 ### Utiliser les hooks
+
+Quête sur les hooks réalisée, j'ai bien compris le principe et j'ai su les utiliser dans le checkpoint2 pour ne pas avoir à transformer un composant en classe. J'ai également refait l'atelier à la fin du cours pour pratiquer les imitations du cycle de vie avec UseEffect(). 
