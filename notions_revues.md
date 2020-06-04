@@ -132,7 +132,13 @@ Pour annoter un commit passé, il suffit de rajouter le numéro unique du commit
 ## Wild
 
 ### Organiser sa veille techno
+
+Une veille Techno organisée avec Nathan. J'utilise Feedly où j'ai selectionné les domaines que je souhaite suivre (en JS, en UX/UI, en Web-design) ce qui me permet de centraliser les dernières actualités sur ces sujets en provenance de plusieurs sites.
+
 ### S'autoformer à une nouvelle technologie
+
+J'ai suivi les formations sur OpenClassRooms pour les bases HTML/CSSS, création de site statique, puis autoformée aux bases en JS sur OpenClassRooms + Codecademy. Je me ses souvent des ressources comme Grafikart et des chaînes Youtube pour comprendre des notions peu vues ou pour lesquelles je n'ai pas bien compris (exemple API Context).
+
 ### Synthétiser des informations et les présenter aux autres
 
 Compétence acquise au cours de mes études et expriences professionelle, appliquée à la wild au cours de la présentation de la veille techno mais aussi des présentations de projet quand j'étais product owner.
@@ -171,7 +177,7 @@ Beaucoup utilisé pendant le hackathon : a fait parti des notions qui se sont d�
 
 ### Maîtrise des Exceptions (try/catch/finally)
 
-
+En cours d'aquisition, peu utilisé en pratique.
 
 ### Exploiter un schema JSON et exploiter une API
 
@@ -223,4 +229,4 @@ J'ai regardé les vidéos de The Net Ninja à propos de l'API Context pour compr
 
 ### Utiliser les hooks
 
-Quête sur les hooks réalisée, j'ai bien compris le principe et j'ai su les utiliser dans le checkpoint2 pour ne pas avoir à transformer un composant en classe. J'ai également refait l'atelier à la fin du cours pour pratiquer les imitations du cycle de vie avec UseEffect(). 
+Quête sur les hooks réalisée, j'ai bien compris le principe et j'ai su les utiliser dans le checkpoint2 pour ne pas avoir à transformer un composant fonctionnel en classe. J'ai également refait l'atelier à la fin du cours pour pratiquer les imitations du cycle de vie avec UseEffect(). 
