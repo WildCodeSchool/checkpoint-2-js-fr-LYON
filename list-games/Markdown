@@ -29,6 +29,10 @@ INTEGRATION
 Utiliser un framework CSS (Bootstrap, MaterializeCSS, ...):
 Dans le projet 2 nous avons utilisé Bootstrap il suffit d'abord de faire un import et ensuite on peut l'utiliser dans le CSS
 
+
+Connaitre les pré-processeur de code CSS (SCSS, ...):
+Les pré-processeur permettent de faciliter l'écriture du CSS; il y a Sass, less et stylus par exemple
+
 Connaître les différents métiers du developpement web (ESN, agence web, freelance...):
 Grace au multiples interventions j'ai une image plus précise des métier du développement
   - une ESN est une entreprise de service numérique 
@@ -38,6 +42,9 @@ Grace au multiples interventions j'ai une image plus précise des métier du dé
 
 Respecter les bonnes pratiques SEO:
 SEO (Search Engine Optimization), cela permet une meilleur optimisation du contenu d'un site, cela permet une meilleur visibilité du site sur internet.
+
+
+WILD 
 
 Organiser sa veille technologique: 
 Je cherche sur différent site et sur les infos aussi des informations d'actualité sur le milieu de la tech et du web
