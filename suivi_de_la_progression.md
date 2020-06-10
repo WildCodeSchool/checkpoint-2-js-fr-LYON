@@ -140,17 +140,23 @@ Je n'avais et n'ai toujours pas retenu ces principes dans leurs détails les plu
 ### JS :
 
 **55 Maîtrise de XmlHttpRequest(AJAX) / Fetch API**
+> ACQUISE
 
 **58 Maîtriser les Regex**
 > ACQUISE
 
 **59 Maîtrise de Promise + Découverte Async/Await**
-> ACQUISE
-> 
-> Utilisé lors du Hackathon avec succès.
+> En COURS
+>
+> Besoin de travailler encore dessus. Pas eu le temps depuis le dernier entretien.
+
+---
+---
+
+# Suite de l'entretien du 2 juin (le 10 juin)
 
 **60 Maîtrise des Exceptions (try/catch/finally)**
-> ACQUISE
+> EN COURS
 > 
 > Utilisé lors du Hackathon avec succès.
 
